@@ -1,0 +1,22 @@
+.backgroundHeader{
+    background-image: url('../../Assets/image3.jpg');
+    height: 90vh;
+    width: auto;
+    background-size: cover;
+    /* background-position: center; */
+    background-attachment: fixed;
+    padding-top: 1.2rem;
+}
+
+.form_card {
+    background: #fff;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: fit-content;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0.25);
+    margin: 4rem;
+}

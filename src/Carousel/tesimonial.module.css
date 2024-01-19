@@ -1,0 +1,25 @@
+
+
+/* Add these styles to your CSS or use styled-components */
+
+.card_deck {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 70%;
+    margin-right: 15px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card.active {
+    transform: scale(1.1); /* Increase scale for the focused card */
+  }
+  
+  .carousel-inner {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+  }
+  
